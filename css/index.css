@@ -53,10 +53,9 @@ body {
     width: 100%;
 }
 
-#gbd {
-    position: absolute;
-    left: 10%;
-    top: 5%;
+.logo {
+    aspect-ratio: 6/1;
+    width: 100%;
 }
 #socialsContainer {
     width: 100%;
@@ -86,34 +85,10 @@ body {
     justify-content: center;
 }
 
-.developmentcontainer {
-    display: flex;
-    width: 100%;
-}
 .sidebysidetext {
     display: flex;
     width: 100%;
     height: 50px;
-}
-#galabeamdevcontainer {
-    height: 70px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    vertical-align: middle;
-    justify-content: center;
-    width: 50%;
-}
-#catbeamstudioscontainer {
-    height: 70px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    vertical-align: middle;
-    justify-content: center;
-    width: 50%;
 }
 
 a {
@@ -126,7 +101,7 @@ h1 {
     font-weight: 1000;
     font-size: 80px;
 
-    text-shadow: 0 10px 20px var(--pri);
+    text-shadow: 0 5px 10px var(--pri);
 }
 h2 {
     text-align: center;
@@ -249,10 +224,6 @@ button:active {
 .footer {
     font-size: 20px;
     color: #888888;
-}
-
-.gsc {
-    width: 98vw;
 }
 
 .buttonrow {

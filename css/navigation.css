@@ -1,5 +1,5 @@
 #naviframe {
-    background: linear-gradient(90deg, #8000ff80 0%, #8000ff80 25%, #0080ffff 50%, #8000ff80 75%, #8000ff80 100%);
+    background: #000;
     height: 3em;
     width: 100%;
     position: fixed;
@@ -44,18 +44,13 @@
     pointer-events: none;
     position: fixed;
 }*/
-#navhome {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -5px);
-}
 #navhome img {
-    aspect-ratio: 3;
+    aspect-ratio: 16/9;
     height: 32px;
     transition: height 0.1s;
 }
 #navhome img:hover {
-    aspect-ratio: 3;
-    height: 40px;
+    aspect-ratio: 16/9;
+    height: 34px;
     transition: height 0.1s;
 }
