@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto.ttf");
+    src: url("/fonts/Roboto.ttf");
 }
 @font-face {
     font-family: "Roboto Mono";
-    src: url("fonts/RobotoMono.ttf");
+    src: url("/fonts/RobotoMono.ttf");
 }
 
 /*animations*/
