@@ -5,9 +5,11 @@
 
 :root {
     --main-color: rgb(255,200,0);
-    --main-color-trans: rgba(255,200,0,0.7);
+    --main-font: Roboto;
+    --pri: rgba(255,200,0,0.7);
     --main-color-bg: rgb(128,100,0);
     --main-color-bg-trans: rgba(128,100,0,0.7);
+    --sec: rgba(128,0,255,1);
 }
 
 * {
@@ -89,8 +91,67 @@ p {
     font-weight: 500;
     font-size: 40px;
 }
-
 button {
-    margin: 0;
-    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    width: 20ex;
+    height: 2em;
+    user-select: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    background: var(--pri);
+
+    transition: font-size 0.1s, height 0.1s, background 0.2s;
+}
+button:hover {
+    height: 2.1em;
+    font-size: 25px;
+    background: linear-gradient(90deg, var(--pri), var(--pri), var(--pri));
+    
+    animation: backgroundloop;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    transition: font-size 0.1s, height 0.1s, background 0.2s;
+}
+button:active {
+    background: var(--pri);
+
+    transition: font-size 0.1s, height 0.1s, background 0.2s;
+}
+/*404*/
+#button404 {
+    font-size: 30px;
+    width: 50ex;
+    height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+    border: 5px;
+    border-color: var(--sec);
+    border-style: solid;
+    background-color: var(--pri);
+    color: var(--sec);
+    font-family: Roboto;
+
+    transition: font-size 0.1s;
+}
+#button404:hover {
+    font-size: 40px;
+
+    transition: font-size 0.1s;
+}
+
+#fourOfour {
+    font-size: 100px;
+    letter-spacing: 10vw;
+    text-indent: 10vw;
 }
